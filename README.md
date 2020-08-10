@@ -1,2 +1,2 @@
 # random
-random solutions
+Random Ruby Scripts
