@@ -1,4 +1,4 @@
-class ArrayBinarySearchTree
+class BinarySearchTreeArray
   attr_accessor :array
 
   def initialize
