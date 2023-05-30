@@ -1,5 +1,6 @@
 Node = Struct.new(:value, :left_child, :right_child)
 
+# Basic BSF implementation
 class BinarySearchTree
   attr_accessor :root
 
