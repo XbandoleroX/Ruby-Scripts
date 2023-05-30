@@ -1,5 +1,10 @@
+#froze_string_literal: true
+
+# Time complexity: O(log n)
+# Space complexity: O(1)
+
 def binary_search(search_in, to_find)
-  sorted = search_in.sort
+  sorted = search_in.sort # O(n log n) || O(log n)
   low = 0
   high = search_in.length - 1
 
@@ -20,7 +25,7 @@ def binary_search(search_in, to_find)
 end
 
 def binary_search_compact(a, b)
-  c = a.sort
+  c = a.sort # O(n log n) || O(log n)
   l, h = 0, c.length - 1
 
   while l <= h
